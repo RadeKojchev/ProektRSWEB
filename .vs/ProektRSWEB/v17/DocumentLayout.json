@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|c:\\users\\user\\source\\repos\\proektrsweb\\proektrsweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|solutionrelative:proektrsweb\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|c:\\users\\user\\source\\repos\\proektrsweb\\proektrsweb\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|solutionrelative:proektrsweb\\views\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|c:\\users\\user\\source\\repos\\proektrsweb\\proektrsweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|solutionrelative:proektrsweb\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProektRSWEB_48d07c7a_cdb5_497d_81aa_eaaa23d047d9/True/SqlTable/dbo.BookGenre.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|c:\\users\\user\\source\\repos\\proektrsweb\\proektrsweb\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|solutionrelative:proektrsweb\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|c:\\users\\user\\source\\repos\\proektrsweb\\proektrsweb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BD72D70-40BD-4311-8B36-805434AA563E}|ProektRSWEB\\ProektRSWEB.csproj|solutionrelative:proektrsweb\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.BookGenre [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_ProektRSWEB_48d07c7a_cdb5_497d_81aa_eaaa23d047d9/True/SqlTable/dbo.BookGenre.sql",
+              "ToolTip": "dbo.BookGenre [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-08T12:24:50.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProektRSWEB\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProektRSWEB\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAIAAACgMzMzM3MvwBEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:26:51.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Views\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProektRSWEB\\Views\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Views\\Books\\Edit.cshtml",
+              "RelativeToolTip": "ProektRSWEB\\Views\\Books\\Edit.cshtml",
+              "ViewState": "AQIAADEAAACAAAAAAIApwDsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T11:24:23.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "ProektRSWEB\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Models\\Genre.cs",
+              "RelativeToolTip": "ProektRSWEB\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:40:22.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Views\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProektRSWEB\\Views\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Views\\Books\\Create.cshtml",
+              "RelativeToolTip": "ProektRSWEB\\Views\\Books\\Create.cshtml",
+              "ViewState": "AQIAACYAAACAMTMzMzMSwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T10:39:28.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "ProektRSWEB\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\ProektRSWEB\\ProektRSWEB\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "ProektRSWEB\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAIsAAAAAlJmZmVkowJAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T10:39:05.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

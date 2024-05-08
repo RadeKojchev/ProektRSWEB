@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "BooksByAuthor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>BooksByAuthor</h1>
+@model List<Book> // Specify the model type passed from the controller
+
+<h2>Books by @Model.FirstOrDefault()?.Author.FirstName</h2> <!-- Display the author's name -->
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year Published</th>
+            <th>Number of Pages</th>
+            <th>Description</th>
+            <th>Publisher</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.YearPublished</td>
+                <td>@book.NumberOfPages</td>
+                <td>@book.Description</td>
+                <td>@book.Publisher</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

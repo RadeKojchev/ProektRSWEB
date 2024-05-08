@@ -1,0 +1,83 @@
+﻿@model IEnumerable<ProektRSWEB.Models.Book>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-action = "Index" method="get">
+    <div>
+        <p>
+            Find By Title: <input type ="text" name="Title" value=""/>
+            <input type = "submit" value="Search"/>
+        </p>
+    </div>
+
+</form>
+<form asp-action = "Index" method="get">
+    <div>
+        <p>
+            Find By Author: <input type ="text" name="Author" value=""/>
+            <input type = "submit" value="Search"/>
+        </p>
+    </div>
+
+</form>
+<form asp-action = "Index" method="get">
+    <div>
+        <p>
+            Find By Genre: <input type ="text" name="Genre" value=""/>
+            <input type = "submit" value="Search"/>
+        </p>
+    </div>
+
+</form>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Year Published</th>
+            <th>Number of Pages</th>
+            <th>Description</th>
+            <th>Publisher</th>
+            <th>Front Page</th>
+            <th>Download URL</th>
+            <th>Author</th>
+            <th>Genres</th> 
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                <td>@Html.DisplayFor(modelItem => item.YearPublished)</td>
+                <td>@Html.DisplayFor(modelItem => item.NumberOfPages)</td>
+                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                <td>@Html.DisplayFor(modelItem => item.Publisher)</td>
+                <td>@Html.DisplayFor(modelItem => item.FrontPage)</td>
+                <td>@Html.DisplayFor(modelItem => item.DownloadURL)</td>
+                <td><a href="@Url.Action("BooksByAuthor", "Authors", new { authorId = item.Author.Id })">@Html.DisplayFor(modelItem => item.Author.FirstName)</a></td>
+                <td>
+                    @foreach (var genre in item.BookGenre)
+                    {
+                        <span>@genre.Genre?.GenreName<br /></span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
